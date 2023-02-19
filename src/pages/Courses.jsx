@@ -1,11 +1,14 @@
 import "./Courses.css"
 import Navigation from "../components/Navigation";
+import Container from "../components/Container";
 
 function Courses(){
     return( 
         <div>
             <Navigation />
-            <h1>This is the Courses Page</h1>
+            <Container>
+                <h1>This is the Courses Page</h1>
+            </Container>
         </div>
     )
 }
