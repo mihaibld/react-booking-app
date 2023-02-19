@@ -8,7 +8,7 @@ import About from "./pages/About"
 import Contact from "./pages/Contact"
 import Courses from "./pages/Courses"
 
-function App() {
+function App(){
   const router = createBrowserRouter([
     {
       path: "/",

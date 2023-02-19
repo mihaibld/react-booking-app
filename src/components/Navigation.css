@@ -1,0 +1,24 @@
+.navigation-container{
+    background-color: lightskyblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px;
+    padding: 0 24px;
+}
+
+.navigation-list{
+    margin: unset;
+    padding: unset;
+    list-style-type: none;
+    display: flex;
+}
+
+.navigation-list__item{
+    margin-left: 176px;
+}
+
+.navigation-list__item > a{
+    text-decoration: none;
+    color: black;
+} 
