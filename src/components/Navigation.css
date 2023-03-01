@@ -1,5 +1,5 @@
-.navigation-container{
-    background-color: lightskyblue;
+.navigation-container {
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -7,18 +7,37 @@
     padding: 0 24px;
 }
 
-.navigation-list{
+.navigation-list {
     margin: unset;
     padding: unset;
     list-style-type: none;
     display: flex;
 }
 
-.navigation-list__item{
-    margin-left: 176px;
+.navigation-list__item {
+    margin-left: 168px;
 }
 
-.navigation-list__item > a{
+.navigation-list__item > a {
     text-decoration: none;
-    color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
 } 
+
+.logo-text {
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: large;
+    top: 38px;
+    left: 160px;
+}
+
+h1 span {
+    font-size: 20px;
+    color: #999;
+    vertical-align: middle;
+    position: fixed;
+}

@@ -1,0 +1,16 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-input-group {
+    display: flex;
+}
+
+.contact-input-group > label {
+    width: 80px;
+}
+
+.has-error{
+    border-color: red;
+}

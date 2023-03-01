@@ -1,11 +1,13 @@
 import "./Navigation.css"
 import {Link} from "react-router-dom"
 import Container from "./Container";
+import rotalogo from "../images/rota.png";
 
-function Navigation(){
+function Navigation() {
     return(
         <div className="navigation-container">
-                <h1>Logo</h1>
+                <img src={rotalogo} alt="rotalogo"/>
+                <h1><span className="logo-text">ROTA SNOWSPORTS&reg;</span></h1>
                 <ul className="navigation-list">
                     <li className="navigation-list__item">
                         <Link to="/">Homepage</Link>
