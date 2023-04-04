@@ -1,16 +1,16 @@
-import "./Courses.css"
+import "./Lessons.css"
 import Navigation from "../components/Navigation";
 import Container from "../components/Container";
 
-function Courses(){
+function Lessons(){
     return( 
         <div>
             <Navigation />
             <Container>
-                <h1>This is the Courses Page</h1>
+            <h1>Lessons</h1> 
             </Container>
         </div>
     )
 }
 
-export default Courses;
+export default Lessons;

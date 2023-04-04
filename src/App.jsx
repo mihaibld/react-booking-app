@@ -6,7 +6,7 @@ import {
 import Homepage from "./pages/Homepage"
 import About from "./pages/About"
 import Contact from "./pages/Contact"
-import Courses from "./pages/Courses"
+import Lessons from "./pages/Lessons"
 
 function App(){
   const router = createBrowserRouter([
@@ -23,8 +23,8 @@ function App(){
     element: <Contact />,
     },
     {
-    path: "/courses",
-    element: <Courses />,
+    path: "/lessons",
+    element: <Lessons />,
   },
   ]);
   

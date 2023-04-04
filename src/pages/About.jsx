@@ -7,7 +7,7 @@ function About(){
         <div>
             <Navigation />
             <Container>
-            <h1>This is the About Page</h1> 
+            <h1>About</h1> 
             </Container>
         </div>
     )

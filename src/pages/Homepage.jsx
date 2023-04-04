@@ -8,7 +8,7 @@ function Homepage(){
         <div>
             <Navigation />
             <Container>
-                <h1>This is the Homepage Page</h1>
+                <h1>Home</h1>
             </Container>
         </div> 
     )

@@ -1,43 +1,60 @@
 .navigation-container {
-    background-color: black;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    border: 2px;
-    padding: 0 24px;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 0.5rem;
+}
+
+.navigation-container h1 {
+    font-size: 2rem;
+    margin: 0;
 }
 
 .navigation-list {
-    margin: unset;
-    padding: unset;
-    list-style-type: none;
     display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .navigation-list__item {
-    margin-left: 168px;
+    margin-right: 1rem;
 }
 
-.navigation-list__item > a {
-    text-decoration: none;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-transform: uppercase;
-} 
-
-.logo-text {
-    text-decoration: none;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-transform: uppercase;
-    font-size: large;
-    top: 38px;
-    left: 160px;
+.navigation-list__item:last-child {
+    margin-right: 0;
 }
 
-h1 span {
-    font-size: 20px;
-    color: #999;
-    vertical-align: middle;
-    position: fixed;
+.navigation-list__item a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.2s ease-in-out;
+}
+
+.navigation-list__item a:hover {
+    color: #007bff;
+}
+
+.mobile-navigation {
+    margin-top: 0.5rem;
+}
+
+.mobile-navigation select {
+    background-color: #f7f7f7;
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    margin: 0;
+    width: 100%;
+    appearance: none;
+}
+
+.mobile-navigation select option {
+    background-color: white;
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
