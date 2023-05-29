@@ -19,12 +19,12 @@ function App(){
       element: <About />,
     },
     {
-    path: "/contact",
-    element: <Contact />,
+      path: "/contact",
+      element: <Contact />,
     },
     {
-    path: "/lessons",
-    element: <Lessons />,
+      path: "/lessons",
+      element: <Lessons />,
   },
   ]);
   
