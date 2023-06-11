@@ -4,3 +4,78 @@
   background-position: center;
   height: 100vh;
 }
+
+.lessons h1 {
+  justify-content: left;
+  align-items: flex-end; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+}
+
+.service-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.service-list h2{
+  font-size: 24px;
+  justify-content: left;
+  align-items: flex-end; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+}
+
+.service-details {
+  font-size: 16px;
+  justify-content: left;
+  align-items: flex-end; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.service-details button {
+  margin-left: 10px;
+  background-color: #ddd;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.total-price {
+  font-size: 16px;
+  justify-content: left;
+  align-items: flex-end; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+}
+
+.locations {
+  font-size: 18px;
+  justify-content: left;
+  align-items: flex-end; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+}
+
+.error {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+}
+
+.booked {
+  position: relative;
+}
+
+.booked::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: red; 
+}

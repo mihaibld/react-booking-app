@@ -60,7 +60,7 @@ function Contact() {
     }
 
     return( 
-        <div>
+        <div className="contact">
             <Navigation />
             <Container>
                 <h1>Contact</h1>

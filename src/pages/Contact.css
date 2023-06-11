@@ -1,3 +1,10 @@
+.contact {
+  background-image: url('../images/home01.JPG');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
 .contact-form {
   max-width: 600px;
   margin: 0 auto;

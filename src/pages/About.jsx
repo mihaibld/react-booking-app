@@ -4,7 +4,7 @@ import Container from "../components/Container";
 
 function About(){
     return( 
-        <div>
+        <div className="about">
             <Navigation />
             <Container>
             <h1>About</h1> 
