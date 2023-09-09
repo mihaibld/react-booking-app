@@ -6,28 +6,13 @@
 }
 
 .welcome-box {
-  /*background-color: rgb(255, 255, 255); */
   color: rgb(0, 0, 0);
   padding: 20px;
   display: flex;
-  /* testing */
   flex-direction: column-reverse;
   justify-content: center;
   margin-top: 120px;
 }
-
-/*
-
-.welcome-box h1 {
-  font-size: 24px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end; 
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-weight: bolder;
-} 
-
-*/
 
 .welcome-box p {
   font-size: 24px;
@@ -36,7 +21,7 @@
   align-items: flex-end; 
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bolder;
-} 
+}
 
 .instagram-link {
   display: block;

@@ -12,7 +12,7 @@ function Lessons() {
   const [selectedDate, setSelectedDate] = useState(null);
   const [bookedSlots, setBookedSlots] = useState([]);
   const [isBookButtonClicked, setIsBookButtonClicked] = useState(false);
-  const pricePerHour = 30;
+  const pricePerHour = 180;
   const totalPrice = hour * participants * pricePerHour;
 
   const increaseHour = () => {
@@ -88,7 +88,7 @@ function Lessons() {
                   <br />
                 </div>
               </div>
-              <span className="total-price">Total Price: {totalPrice}EUR</span>
+              <span className="total-price">Total Price: {totalPrice}RON</span>
               <div className="locations">
                 <h2>Choose your playground:</h2>
                 <select value={location} onChange={handleLocationChange} className={!location && isBookButtonClicked ? 'error' : ''}>
@@ -107,7 +107,7 @@ function Lessons() {
                   showTimeSelect
                   timeFormat="HH:mm"
                   timeIntervals={15}
-                  dateFormat="MMMM d, yyyy h:mm aa"
+                  dateFormat="MMM d, yyyy h:mm aa"
                   placeholderText="Select date and time"
                   className={bookedSlots.some(
                     (slot) =>
